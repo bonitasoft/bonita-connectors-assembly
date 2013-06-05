@@ -21,7 +21,7 @@
     </prerequisites>
 
     <scm>
-        <developerConnection>scm:svn:https://svn.bonitasoft.org/bonita-connectors-6/tags/bonita-connectors-assembly/bonita-connectors-assembly-6.0.0</developerConnection>
+        <developerConnection>scm:svn:https://svn.bonitasoft.org/bonita-connectors-6/branches/bonita-connectors-assembly/bonita-connectors-assembly-6.0.x</developerConnection>
     </scm>
 
     <build>
