@@ -21,7 +21,7 @@
     </prerequisites>
 
     <scm>
-        <developerConnection>scm:svn:https://svn.bonitasoft.org/bonita-connectors-6/trunk/bonita-connectors-assembly</developerConnection>
+        <developerConnection>scm:git:git@github.com:bonitasoft/bonita-connectors-assembly.git</developerConnection>
     </scm>
 
     <build>
@@ -31,9 +31,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.4</version>
                 <configuration>
-                    <tagBase>https://svn.bonitasoft.org/bonita-connectors-6/tags/bonita-connectors-assembly</tagBase>
-                    <preparationGoals>clean install</preparationGoals>
-                    <goals>deploy</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
