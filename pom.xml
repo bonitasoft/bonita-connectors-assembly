@@ -20,20 +20,21 @@
         <maven>3.0</maven>
     </prerequisites>
 
-    <scm>
-        <developerConnection>scm:git:git@github.com:bonitasoft/bonita-connectors-assembly.git</developerConnection>
-    </scm>
-
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.4</version>
-                <configuration>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
-                </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <developerConnection>scm:git:git@github.com:bonitasoft/bonita-connector-assembly.git</developerConnection>
+        <connection>scm:git:git@github.com:bonitasoft/bonita-connector-assembly.git</connection>
+        <url>https://github.com/bonitasoft/bonita-connector-assembly</url>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>
