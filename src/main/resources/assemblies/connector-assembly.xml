@@ -37,7 +37,7 @@
                 <exclude>org.bonitasoft*:*-def</exclude>
             </excludes>
             <unpack>false</unpack>
-            <scope>runtime</scope>
+            <scope>compile</scope>
             <outputDirectory>/classpath</outputDirectory>
         </dependencySet>
         <dependencySet>
