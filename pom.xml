@@ -31,10 +31,11 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:bonitasoft/bonita-connector-assembly.git</developerConnection>
-        <connection>scm:git:git@github.com:bonitasoft/bonita-connector-assembly.git</connection>
-        <url>https://github.com/bonitasoft/bonita-connector-assembly</url>
+        <developerConnection>scm:git:git@github.com:bonitasoft/bonita-connectors-assembly.git</developerConnection>
+        <connection>scm:git:git@github.com:bonitasoft/bonita-connectors-assembly.git</connection>
+        <url>https://github.com/bonitasoft/bonita-connectors-assembly</url>
         <tag>HEAD</tag>
     </scm>
+    
 
 </project>
